@@ -38,7 +38,10 @@ end
 configure :build do
   # Minify CSS on build
   # activate :minify_css
-
+end
   # Minify Javascript on build
   # activate :minify_javascript
+  activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
 end

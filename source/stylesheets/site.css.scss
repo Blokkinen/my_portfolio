@@ -106,6 +106,52 @@ h1 {
   }
 }
 
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+
+// vertical centering mixin found in Foundation
+@mixin vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-callout-card {
+  .callout {
+    position: relative;
+    border: 1px solid $medium-gray;
+  }
+
+  .first-section,
+  .last-section {
+    p {
+      @include vertical-center;
+    }
+  }
+
+  .first-section {
+    border-bottom: 0;
+  }
+
+  .last-section {
+    border-top: 0;
+  }
+
+  @media only screen and (max-width: 640px) {
+    .callout {
+      margin-bottom: 0;
+    }
+
+    .first-section {
+      border-right: none;
+    }
+
+    .last-section {
+      border-left: none;
+    }
+  }
+}
+
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s;

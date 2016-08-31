@@ -1,0 +1,22 @@
+.title-bar{"data-hide-for" => "medium", "data-responsive-toggle" => "main-menu"}
+  %button.menu-icon{"data-toggle" => "", :type => "button"}
+  .title-bar-title Menu
+#main-menu.top-bar
+  .top-bar-left
+    %ul.dropdown.menu{"data-dropdown-menu" => ""}
+      %li.menu-text Viktoria Blok
+  .top-bar-right
+    %ul.menu{"data-responsive-menu" => "drilldown medium-dropdown"}
+      %li.has-submenu
+        %a{:href => "#"} Portfolio
+        %ul.submenu.menu.vertical{"data-submenu" => ""}
+          %li
+            %a{:href => "https://blokkinen.github.io/bmi_challenge/"} BMI Challenge
+          %li
+            %a{:href => "https://github.com/Blokkinen/atm_challenge"} Atm challenge
+          %li
+            %a{:href => "https://github.com/Blokkinen/fizz_buzz_challange"} FizzBuzz
+      %li
+        %a{:href => "#"} About me
+      %li
+        %a{:href => "#"} Blog

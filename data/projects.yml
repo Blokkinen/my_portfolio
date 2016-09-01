@@ -1,6 +1,12 @@
 - name: Atm challenge
-  description: Simple HTML5 site I've build during the PrepCourse
+  description: Test driven ruby project
   url: https://github.com/Blokkinen/atm_challenge
-- name: FizzBuzz
-  description: My first Test driven ruby project
+- name: FizzBuzz challenge
+  description: Test driven ruby project
   url: https://github.com/Blokkinen/fizz_buzz_js
+- name: Bmi challenge
+  description: My first javascript program
+  url: https://blokkinen.github.io/bmi_challenge/
+- name: Portfolio challenge
+  description: My first website using haml and css
+  url: https://blokkinen.github.io/my_portfolio/

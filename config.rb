@@ -1,3 +1,4 @@
+require 'extensions/build_cleaner'
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -38,6 +39,8 @@ end
 configure :build do
   # Minify CSS on build
   # activate :minify_css
+  activate :relative_assets
+  activate :build_cleaner
 end
   # Minify Javascript on build
   # activate :minify_javascript

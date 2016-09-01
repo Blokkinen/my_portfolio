@@ -40,6 +40,7 @@ end
 configure :build do
   # Minify CSS on build
   # activate :minify_css
+  activate :relative_assets
   activate :build_cleaner
 end
   # Minify Javascript on build

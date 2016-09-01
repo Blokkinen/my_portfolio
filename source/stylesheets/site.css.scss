@@ -5,6 +5,44 @@ body {margin-top: 2rem;}
 
 $menu-background: black;
 
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333333;
+}
+
+/* selected link */
+link_to:active {
+    color: black;
+}
+
+link_to:link {
+    color: white;
+}
+
+/* visited link */
+link_to:visited {
+    color: white;
+}
+
+/* mouse over link */
+link_to:hover {
+    color: #333333;
+}
+
+/* selected link */
+li:active {
+    color: black;
+}
+
 .title-bar {
   background: $menu-background;
 }
@@ -32,24 +70,7 @@ body {
 }
 
 /* unvisited link */
-a:link {
-    color: white;
-}
 
-/* visited link */
-a:visited {
-    color: white;
-}
-
-/* mouse over link */
-a:hover {
-    color: #333333;
-}
-
-/* selected link */
-a:active {
-    color: black;
-}
 
 .footer {
 

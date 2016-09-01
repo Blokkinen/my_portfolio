@@ -18,6 +18,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+set :relative_links, true
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -39,7 +40,6 @@ end
 configure :build do
   # Minify CSS on build
   # activate :minify_css
-  activate :relative_assets
   activate :build_cleaner
 end
   # Minify Javascript on build

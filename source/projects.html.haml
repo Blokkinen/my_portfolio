@@ -1,5 +1,9 @@
+%br &nbsp;
 .projects
   - data.projects.each do |project|
     %h4= project[:name]
     %p= project[:description]
-    = link_to 'github', project[:url]
+    = link_to 'See this project', project[:url]
+    %br &nbsp;
+    %br &nbsp;
+    %br

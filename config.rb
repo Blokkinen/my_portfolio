@@ -45,6 +45,7 @@ configure :build do
 end
 
 activate :blog do |blog|
+  blog.prefix = "/blog"
   # set options on blog
 end
   # Minify Javascript on build
